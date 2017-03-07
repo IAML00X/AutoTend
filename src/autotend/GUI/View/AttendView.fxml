@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="autotend.GUI.Controller.AttendViewController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="230.0" layoutY="22.0" text="AutoTend">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="181.0" layoutY="137.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="238.0" text="Fremmødt">
+               <font>
+                  <Font name="System Bold" size="37.0" />
+               </font>
+            </Button>
+            <Button layoutX="486.0" layoutY="341.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="OK" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
